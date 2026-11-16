@@ -7,9 +7,7 @@
       "kilometers": 28748
     },
     "landlocked": false,
-    "languages": [
-      "Albanian"
-    ]
+    "languages": "Albanian"
   },
   {
     "name": "Andorra",
@@ -19,9 +17,7 @@
       "kilometers": 468
     },
     "landlocked": true,
-    "languages": [
-      "Catalan"
-    ]
+    "languages": "Catalan"
   },
   {
     "name": "Austria",
@@ -31,9 +27,7 @@
       "kilometers": 83871
     },
     "landlocked": true,
-    "languages": [
-      "German"
-    ]
+    "languages": "German"
   },
   {
     "name": "Belarus",
@@ -43,10 +37,7 @@
       "kilometers": 207600
     },
     "landlocked": true,
-    "languages": [
-      "Belarusian",
-      "Russian"
-    ]
+    "languages": "Belarusian"
   },
   {
     "name": "Belgium",
@@ -56,11 +47,7 @@
       "kilometers": 30528
     },
     "landlocked": false,
-    "languages": [
-      "German",
-      "French",
-      "Dutch"
-    ]
+    "languages": "German"
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -70,11 +57,7 @@
       "kilometers": 51209
     },
     "landlocked": false,
-    "languages": [
-      "Bosnian",
-      "Croatian",
-      "Serbian"
-    ]
+    "languages": "Bosnian"
   },
   {
     "name": "Bulgaria",
@@ -84,9 +67,7 @@
       "kilometers": 110879
     },
     "landlocked": false,
-    "languages": [
-      "Bulgarian"
-    ]
+    "languages": "Bulgarian"
   },
   {
     "name": "Croatia",
@@ -96,9 +77,7 @@
       "kilometers": 56594
     },
     "landlocked": false,
-    "languages": [
-      "Croatian"
-    ]
+    "languages": "Croatian"
   },
   {
     "name": "Cyprus",
@@ -108,10 +87,7 @@
       "kilometers": 9251
     },
     "landlocked": false,
-    "languages": [
-      "Greek",
-      "Turkish"
-    ]
+    "languages": "Greek"
   },
   {
     "name": "Czechia",
@@ -121,10 +97,7 @@
       "kilometers": 78865
     },
     "landlocked": true,
-    "languages": [
-      "Czech",
-      "Slovak"
-    ]
+    "languages": "Czech"
   },
   {
     "name": "Denmark",
@@ -134,9 +107,7 @@
       "kilometers": 43094
     },
     "landlocked": false,
-    "languages": [
-      "Danish"
-    ]
+    "languages": "Danish"
   },
   {
     "name": "Estonia",
@@ -146,9 +117,7 @@
       "kilometers": 45227
     },
     "landlocked": false,
-    "languages": [
-      "Estonian"
-    ]
+    "languages": "Estonian"
   },
   {
     "name": "Faroe Islands",
@@ -158,10 +127,7 @@
       "kilometers": 1393
     },
     "landlocked": false,
-    "languages": [
-      "Danish",
-      "Faroese"
-    ]
+    "languages": "Danish"
   },
   {
     "name": "Finland",
@@ -171,10 +137,7 @@
       "kilometers": 338424
     },
     "landlocked": false,
-    "languages": [
-      "Finnish",
-      "Swedish"
-    ]
+    "languages": "Finnish"
   },
   {
     "name": "France",
@@ -184,9 +147,7 @@
       "kilometers": 551695
     },
     "landlocked": false,
-    "languages": [
-      "French"
-    ]
+    "languages": "French"
   },
   {
     "name": "Germany",
@@ -196,9 +157,7 @@
       "kilometers": 357114
     },
     "landlocked": false,
-    "languages": [
-      "German"
-    ]
+    "languages": "German"
   },
   {
     "name": "Gibraltar",
@@ -208,9 +167,7 @@
       "kilometers": 6
     },
     "landlocked": false,
-    "languages": [
-      "English"
-    ]
+    "languages": "English"
   },
   {
     "name": "Greece",
@@ -220,9 +177,7 @@
       "kilometers": 131990
     },
     "landlocked": false,
-    "languages": [
-      "Greek"
-    ]
+    "languages": "Greek"
   },
   {
     "name": "Guernsey",
@@ -232,11 +187,7 @@
       "kilometers": 78
     },
     "landlocked": false,
-    "languages": [
-      "English",
-      "French",
-      "Norman"
-    ]
+    "languages": "English"
   },
   {
     "name": "Hungary",
@@ -246,9 +197,7 @@
       "kilometers": 93028
     },
     "landlocked": true,
-    "languages": [
-      "Hungarian"
-    ]
+    "languages": "Hungarian"
   },
   {
     "name": "Iceland",
@@ -258,9 +207,7 @@
       "kilometers": 103000
     },
     "landlocked": false,
-    "languages": [
-      "Icelandic"
-    ]
+    "languages": "Icelandic"
   },
   {
     "name": "Ireland",
@@ -270,10 +217,7 @@
       "kilometers": 70273
     },
     "landlocked": false,
-    "languages": [
-      "English",
-      "Irish"
-    ]
+    "languages": "English"
   },
   {
     "name": "Isle of Man",
@@ -283,10 +227,7 @@
       "kilometers": 572
     },
     "landlocked": false,
-    "languages": [
-      "English",
-      "Manx"
-    ]
+    "languages": "English"
   },
   {
     "name": "Italy",
@@ -296,10 +237,7 @@
       "kilometers": 301336
     },
     "landlocked": false,
-    "languages": [
-      "Italian",
-      "Catalan"
-    ]
+    "languages": "Italian"
   },
   {
     "name": "Jersey",
@@ -309,11 +247,7 @@
       "kilometers": 116
     },
     "landlocked": false,
-    "languages": [
-      "English",
-      "French",
-      "Norman"
-    ]
+    "languages": "English"
   },
   {
     "name": "Kosovo",
@@ -323,10 +257,7 @@
       "kilometers": 10908
     },
     "landlocked": true,
-    "languages": [
-      "Albanian",
-      "Serbian"
-    ]
+    "languages": "Albanian"
   },
   {
     "name": "Latvia",
@@ -336,9 +267,7 @@
       "kilometers": 64559
     },
     "landlocked": false,
-    "languages": [
-      "Latvian"
-    ]
+    "languages": "Latvian"
   },
   {
     "name": "Liechtenstein",
@@ -348,9 +277,7 @@
       "kilometers": 160
     },
     "landlocked": true,
-    "languages": [
-      "German"
-    ]
+    "languages": "German"
   },
   {
     "name": "Lithuania",
@@ -360,9 +287,7 @@
       "kilometers": 65300
     },
     "landlocked": false,
-    "languages": [
-      "Lithuanian"
-    ]
+    "languages": "Lithuanian"
   },
   {
     "name": "Luxembourg",
@@ -372,11 +297,7 @@
       "kilometers": 2586
     },
     "landlocked": true,
-    "languages": [
-      "German",
-      "French",
-      "Luxembourgish"
-    ]
+    "languages": "German"
   },
   {
     "name": "Malta",
@@ -386,10 +307,7 @@
       "kilometers": 316
     },
     "landlocked": false,
-    "languages": [
-      "English",
-      "Maltese"
-    ]
+    "languages": "English"
   },
   {
     "name": "Moldova",
@@ -399,9 +317,7 @@
       "kilometers": 33846
     },
     "landlocked": true,
-    "languages": [
-      "Romanian"
-    ]
+    "languages": "Romanian"
   },
   {
     "name": "Monaco",
@@ -411,9 +327,7 @@
       "kilometers": 2.02
     },
     "landlocked": false,
-    "languages": [
-      "French"
-    ]
+    "languages": "French"
   },
   {
     "name": "Montenegro",
@@ -423,9 +337,7 @@
       "kilometers": 13812
     },
     "landlocked": false,
-    "languages": [
-      "Montenegrin"
-    ]
+    "languages": "Montenegrin"
   },
   {
     "name": "Netherlands",
@@ -435,9 +347,7 @@
       "kilometers": 41850
     },
     "landlocked": false,
-    "languages": [
-      "Dutch"
-    ]
+    "languages": "Dutch"
   },
   {
     "name": "North Macedonia",
@@ -447,9 +357,7 @@
       "kilometers": 25713
     },
     "landlocked": true,
-    "languages": [
-      "Macedonian"
-    ]
+    "languages": "Macedonian"
   },
   {
     "name": "Northern Cyprus",
@@ -459,9 +367,7 @@
       "kilometers": 3355
     },
     "landlocked": false,
-    "languages": [
-      "Turkish"
-    ]
+    "languages": "Turkish"
   },
   {
     "name": "Norway",
@@ -471,13 +377,7 @@
       "kilometers": 323802
     },
     "landlocked": false,
-    "languages": [
-      "Norwegian Nynorsk",
-      "Norwegian Bokmål",
-      "Northern Sami",
-      "Lule Sami",
-      "Southern Sami"
-    ]
+    "languages": "Norwegian Nynorsk"
   },
   {
     "name": "Poland",
@@ -487,9 +387,7 @@
       "kilometers": 312679
     },
     "landlocked": false,
-    "languages": [
-      "Polish"
-    ]
+    "languages": "Polish"
   },
   {
     "name": "Portugal",
@@ -499,9 +397,7 @@
       "kilometers": 92090
     },
     "landlocked": false,
-    "languages": [
-      "Portuguese"
-    ]
+    "languages": "Portuguese"
   },
   {
     "name": "Romania",
@@ -511,9 +407,7 @@
       "kilometers": 238391
     },
     "landlocked": false,
-    "languages": [
-      "Romanian"
-    ]
+    "languages": "Romanian"
   },
   {
     "name": "Russia",
@@ -523,9 +417,7 @@
       "kilometers": 17098242
     },
     "landlocked": false,
-    "languages": [
-      "Russian"
-    ]
+    "languages": "Russian"
   },
   {
     "name": "San Marino",
@@ -535,9 +427,7 @@
       "kilometers": 61
     },
     "landlocked": true,
-    "languages": [
-      "Italian"
-    ]
+    "languages": "Italian"
   },
   {
     "name": "Serbia",
@@ -547,9 +437,7 @@
       "kilometers": 88361
     },
     "landlocked": true,
-    "languages": [
-      "Serbian"
-    ]
+    "languages": "Serbian"
   },
   {
     "name": "Slovakia",
@@ -559,9 +447,7 @@
       "kilometers": 49037
     },
     "landlocked": true,
-    "languages": [
-      "Slovak"
-    ]
+    "languages": "Slovak"
   },
   {
     "name": "Slovenia",
@@ -571,9 +457,7 @@
       "kilometers": 20273
     },
     "landlocked": false,
-    "languages": [
-      "Slovenian"
-    ]
+    "languages": "Slovenian"
   },
   {
     "name": "Spain",
@@ -583,13 +467,7 @@
       "kilometers": 505992
     },
     "landlocked": false,
-    "languages": [
-      "Spanish",
-      "Catalan",
-      "Basque",
-      "Galician",
-      "Aranese"
-    ]
+    "languages": "Spanish"
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -599,9 +477,7 @@
       "kilometers": 61399
     },
     "landlocked": false,
-    "languages": [
-      "Norwegian"
-    ]
+    "languages": "Norwegian"
   },
   {
     "name": "Sweden",
@@ -611,9 +487,7 @@
       "kilometers": 450295
     },
     "landlocked": false,
-    "languages": [
-      "Swedish"
-    ]
+    "languages": "Swedish"
   },
   {
     "name": "Switzerland",
@@ -623,12 +497,7 @@
       "kilometers": 41284
     },
     "landlocked": true,
-    "languages": [
-      "French",
-      "Swiss German",
-      "Italian",
-      "Romansh"
-    ]
+    "languages": "French"
   },
   {
     "name": "Ukraine",
@@ -638,9 +507,7 @@
       "kilometers": 603500
     },
     "landlocked": false,
-    "languages": [
-      "Ukrainian"
-    ]
+    "languages": "Ukrainian"
   },
   {
     "name": "United Kingdom",
@@ -650,9 +517,7 @@
       "kilometers": 242900
     },
     "landlocked": false,
-    "languages": [
-      "English"
-    ]
+    "languages": "English"
   },
   {
     "name": "Vatican City",
@@ -662,10 +527,7 @@
       "kilometers": 0.44
     },
     "landlocked": true,
-    "languages": [
-      "Italian",
-      "Latin"
-    ]
+    "languages": "Italian"
   },
   {
     "name": "Åland Islands",
@@ -675,8 +537,6 @@
       "kilometers": 1580
     },
     "landlocked": false,
-    "languages": [
-      "Swedish"
-    ]
+    "languages": "Swedish"
   }
 ]

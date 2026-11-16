@@ -29,7 +29,7 @@ def get_languages(country):
     languages = []
     for lang in country["languages"]:
         languages.append(lang["name"])
-    return languages
+    return languages[0]
 def parse_country(country):
     parsed_country = {
         "name": country["names"]["common"],
