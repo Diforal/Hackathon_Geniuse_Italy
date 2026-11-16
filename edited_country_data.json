@@ -3,9 +3,7 @@
     "name": "Albania",
     "subregion": "Southeast Europe",
     "population": 2335930,
-    "area": {
-      "kilometers": 28748
-    },
+    "area": 28748,
     "landlocked": false,
     "languages": "Albanian"
   },
@@ -13,9 +11,7 @@
     "name": "Andorra",
     "subregion": "Southern Europe",
     "population": 90271,
-    "area": {
-      "kilometers": 468
-    },
+    "area": 468,
     "landlocked": true,
     "languages": "Catalan"
   },
@@ -23,9 +19,7 @@
     "name": "Austria",
     "subregion": "Central Europe",
     "population": 9228795,
-    "area": {
-      "kilometers": 83871
-    },
+    "area": 83871,
     "landlocked": true,
     "languages": "German"
   },
@@ -33,9 +27,7 @@
     "name": "Belarus",
     "subregion": "Eastern Europe",
     "population": 9056080,
-    "area": {
-      "kilometers": 207600
-    },
+    "area": 207600,
     "landlocked": true,
     "languages": "Belarusian"
   },
@@ -43,9 +35,7 @@
     "name": "Belgium",
     "subregion": "Western Europe",
     "population": 11947050,
-    "area": {
-      "kilometers": 30528
-    },
+    "area": 30528,
     "landlocked": false,
     "languages": "German"
   },
@@ -53,9 +43,7 @@
     "name": "Bosnia and Herzegovina",
     "subregion": "Southeast Europe",
     "population": 3412000,
-    "area": {
-      "kilometers": 51209
-    },
+    "area": 51209,
     "landlocked": false,
     "languages": "Bosnian"
   },
@@ -63,9 +51,7 @@
     "name": "Bulgaria",
     "subregion": "Southeast Europe",
     "population": 6423207,
-    "area": {
-      "kilometers": 110879
-    },
+    "area": 110879,
     "landlocked": false,
     "languages": "Bulgarian"
   },
@@ -73,9 +59,7 @@
     "name": "Croatia",
     "subregion": "Southeast Europe",
     "population": 3874993,
-    "area": {
-      "kilometers": 56594
-    },
+    "area": 56594,
     "landlocked": false,
     "languages": "Croatian"
   },
@@ -83,9 +67,7 @@
     "name": "Cyprus",
     "subregion": "Southern Europe",
     "population": 996600,
-    "area": {
-      "kilometers": 9251
-    },
+    "area": 9251,
     "landlocked": false,
     "languages": "Greek"
   },
@@ -93,9 +75,7 @@
     "name": "Czechia",
     "subregion": "Central Europe",
     "population": 10903655,
-    "area": {
-      "kilometers": 78865
-    },
+    "area": 78865,
     "landlocked": true,
     "languages": "Czech"
   },
@@ -103,9 +83,7 @@
     "name": "Denmark",
     "subregion": "Northern Europe",
     "population": 6044001,
-    "area": {
-      "kilometers": 43094
-    },
+    "area": 43094,
     "landlocked": false,
     "languages": "Danish"
   },
@@ -113,9 +91,7 @@
     "name": "Estonia",
     "subregion": "Northern Europe",
     "population": 1360745,
-    "area": {
-      "kilometers": 45227
-    },
+    "area": 45227,
     "landlocked": false,
     "languages": "Estonian"
   },
@@ -123,9 +99,7 @@
     "name": "Faroe Islands",
     "subregion": "Northern Europe",
     "population": 55466,
-    "area": {
-      "kilometers": 1393
-    },
+    "area": 1393,
     "landlocked": false,
     "languages": "Danish"
   },
@@ -133,9 +107,7 @@
     "name": "Finland",
     "subregion": "Northern Europe",
     "population": 5662086,
-    "area": {
-      "kilometers": 338424
-    },
+    "area": 338424,
     "landlocked": false,
     "languages": "Finnish"
   },
@@ -143,9 +115,7 @@
     "name": "France",
     "subregion": "Western Europe",
     "population": 69081996,
-    "area": {
-      "kilometers": 551695
-    },
+    "area": 551695,
     "landlocked": false,
     "languages": "French"
   },
@@ -153,9 +123,7 @@
     "name": "Germany",
     "subregion": "Western Europe",
     "population": 83298787,
-    "area": {
-      "kilometers": 357114
-    },
+    "area": 357114,
     "landlocked": false,
     "languages": "German"
   },
@@ -163,9 +131,7 @@
     "name": "Gibraltar",
     "subregion": "Southern Europe",
     "population": 38196,
-    "area": {
-      "kilometers": 6
-    },
+    "area": 6,
     "landlocked": false,
     "languages": "English"
   },
@@ -173,9 +139,7 @@
     "name": "Greece",
     "subregion": "Southern Europe",
     "population": 10372335,
-    "area": {
-      "kilometers": 131990
-    },
+    "area": 131990,
     "landlocked": false,
     "languages": "Greek"
   },
@@ -183,9 +147,7 @@
     "name": "Guernsey",
     "subregion": "Northern Europe",
     "population": 64781,
-    "area": {
-      "kilometers": 78
-    },
+    "area": 78,
     "landlocked": false,
     "languages": "English"
   },
@@ -193,9 +155,7 @@
     "name": "Hungary",
     "subregion": "Central Europe",
     "population": 9488428,
-    "area": {
-      "kilometers": 93028
-    },
+    "area": 93028,
     "landlocked": true,
     "languages": "Hungarian"
   },
@@ -203,9 +163,7 @@
     "name": "Iceland",
     "subregion": "Northern Europe",
     "population": 397710,
-    "area": {
-      "kilometers": 103000
-    },
+    "area": 103000,
     "landlocked": false,
     "languages": "Icelandic"
   },
@@ -213,9 +171,7 @@
     "name": "Ireland",
     "subregion": "Northern Europe",
     "population": 5525600,
-    "area": {
-      "kilometers": 70273
-    },
+    "area": 70273,
     "landlocked": false,
     "languages": "English"
   },
@@ -223,9 +179,7 @@
     "name": "Isle of Man",
     "subregion": "Northern Europe",
     "population": 84975,
-    "area": {
-      "kilometers": 572
-    },
+    "area": 572,
     "landlocked": false,
     "languages": "English"
   },
@@ -233,9 +187,7 @@
     "name": "Italy",
     "subregion": "Southern Europe",
     "population": 58949500,
-    "area": {
-      "kilometers": 301336
-    },
+    "area": 301336,
     "landlocked": false,
     "languages": "Italian"
   },
@@ -243,9 +195,7 @@
     "name": "Jersey",
     "subregion": "Northern Europe",
     "population": 104540,
-    "area": {
-      "kilometers": 116
-    },
+    "area": 116,
     "landlocked": false,
     "languages": "English"
   },
@@ -253,9 +203,7 @@
     "name": "Kosovo",
     "subregion": "Southeast Europe",
     "population": 1582322,
-    "area": {
-      "kilometers": 10908
-    },
+    "area": 10908,
     "landlocked": true,
     "languages": "Albanian"
   },
@@ -263,9 +211,7 @@
     "name": "Latvia",
     "subregion": "Northern Europe",
     "population": 1828600,
-    "area": {
-      "kilometers": 64559
-    },
+    "area": 64559,
     "landlocked": false,
     "languages": "Latvian"
   },
@@ -273,9 +219,7 @@
     "name": "Liechtenstein",
     "subregion": "Western Europe",
     "population": 41228,
-    "area": {
-      "kilometers": 160
-    },
+    "area": 160,
     "landlocked": true,
     "languages": "German"
   },
@@ -283,9 +227,7 @@
     "name": "Lithuania",
     "subregion": "Northern Europe",
     "population": 2890874,
-    "area": {
-      "kilometers": 65300
-    },
+    "area": 65300,
     "landlocked": false,
     "languages": "Lithuanian"
   },
@@ -293,9 +235,7 @@
     "name": "Luxembourg",
     "subregion": "Western Europe",
     "population": 690959,
-    "area": {
-      "kilometers": 2586
-    },
+    "area": 2586,
     "landlocked": true,
     "languages": "German"
   },
@@ -303,9 +243,7 @@
     "name": "Malta",
     "subregion": "Southern Europe",
     "population": 588254,
-    "area": {
-      "kilometers": 316
-    },
+    "area": 316,
     "landlocked": false,
     "languages": "English"
   },
@@ -313,9 +251,7 @@
     "name": "Moldova",
     "subregion": "Eastern Europe",
     "population": 2365600,
-    "area": {
-      "kilometers": 33846
-    },
+    "area": 33846,
     "landlocked": true,
     "languages": "Romanian"
   },
@@ -323,9 +259,7 @@
     "name": "Monaco",
     "subregion": "Western Europe",
     "population": 38857,
-    "area": {
-      "kilometers": 2.02
-    },
+    "area": 2.02,
     "landlocked": false,
     "languages": "French"
   },
@@ -333,9 +267,7 @@
     "name": "Montenegro",
     "subregion": "Southeast Europe",
     "population": 622902,
-    "area": {
-      "kilometers": 13812
-    },
+    "area": 13812,
     "landlocked": false,
     "languages": "Montenegrin"
   },
@@ -343,9 +275,7 @@
     "name": "Netherlands",
     "subregion": "Western Europe",
     "population": 18192693,
-    "area": {
-      "kilometers": 41850
-    },
+    "area": 41850,
     "landlocked": false,
     "languages": "Dutch"
   },
@@ -353,9 +283,7 @@
     "name": "North Macedonia",
     "subregion": "Southeast Europe",
     "population": 1836713,
-    "area": {
-      "kilometers": 25713
-    },
+    "area": 25713,
     "landlocked": true,
     "languages": "Macedonian"
   },
@@ -363,9 +291,7 @@
     "name": "Northern Cyprus",
     "subregion": "Southern Europe",
     "population": 382836,
-    "area": {
-      "kilometers": 3355
-    },
+    "area": 3355,
     "landlocked": false,
     "languages": "Turkish"
   },
@@ -373,9 +299,7 @@
     "name": "Norway",
     "subregion": "Northern Europe",
     "population": 5636904,
-    "area": {
-      "kilometers": 323802
-    },
+    "area": 323802,
     "landlocked": false,
     "languages": "Norwegian Nynorsk"
   },
@@ -383,9 +307,7 @@
     "name": "Poland",
     "subregion": "Central Europe",
     "population": 37221000,
-    "area": {
-      "kilometers": 312679
-    },
+    "area": 312679,
     "landlocked": false,
     "languages": "Polish"
   },
@@ -393,9 +315,7 @@
     "name": "Portugal",
     "subregion": "Southern Europe",
     "population": 11424031,
-    "area": {
-      "kilometers": 92090
-    },
+    "area": 92090,
     "landlocked": false,
     "languages": "Portuguese"
   },
@@ -403,9 +323,7 @@
     "name": "Romania",
     "subregion": "Southeast Europe",
     "population": 19041322,
-    "area": {
-      "kilometers": 238391
-    },
+    "area": 238391,
     "landlocked": false,
     "languages": "Romanian"
   },
@@ -413,9 +331,7 @@
     "name": "Russia",
     "subregion": "Eastern Europe",
     "population": 146028325,
-    "area": {
-      "kilometers": 17098242
-    },
+    "area": 17098242,
     "landlocked": false,
     "languages": "Russian"
   },
@@ -423,9 +339,7 @@
     "name": "San Marino",
     "subregion": "Southern Europe",
     "population": 33605,
-    "area": {
-      "kilometers": 61
-    },
+    "area": 61,
     "landlocked": true,
     "languages": "Italian"
   },
@@ -433,9 +347,7 @@
     "name": "Serbia",
     "subregion": "Southeast Europe",
     "population": 6532019,
-    "area": {
-      "kilometers": 88361
-    },
+    "area": 88361,
     "landlocked": true,
     "languages": "Serbian"
   },
@@ -443,9 +355,7 @@
     "name": "Slovakia",
     "subregion": "Central Europe",
     "population": 5403009,
-    "area": {
-      "kilometers": 49037
-    },
+    "area": 49037,
     "landlocked": true,
     "languages": "Slovak"
   },
@@ -453,9 +363,7 @@
     "name": "Slovenia",
     "subregion": "Central Europe",
     "population": 2138751,
-    "area": {
-      "kilometers": 20273
-    },
+    "area": 20273,
     "landlocked": false,
     "languages": "Slovenian"
   },
@@ -463,9 +371,7 @@
     "name": "Spain",
     "subregion": "Southern Europe",
     "population": 49935642,
-    "area": {
-      "kilometers": 505992
-    },
+    "area": 505992,
     "landlocked": false,
     "languages": "Spanish"
   },
@@ -473,9 +379,7 @@
     "name": "Svalbard and Jan Mayen",
     "subregion": "Northern Europe",
     "population": 2562,
-    "area": {
-      "kilometers": 61399
-    },
+    "area": 61399,
     "landlocked": false,
     "languages": "Norwegian"
   },
@@ -483,9 +387,7 @@
     "name": "Sweden",
     "subregion": "Northern Europe",
     "population": 10621725,
-    "area": {
-      "kilometers": 450295
-    },
+    "area": 450295,
     "landlocked": false,
     "languages": "Swedish"
   },
@@ -493,9 +395,7 @@
     "name": "Switzerland",
     "subregion": "Western Europe",
     "population": 9154896,
-    "area": {
-      "kilometers": 41284
-    },
+    "area": 41284,
     "landlocked": true,
     "languages": "French"
   },
@@ -503,9 +403,7 @@
     "name": "Ukraine",
     "subregion": "Eastern Europe",
     "population": 28700000,
-    "area": {
-      "kilometers": 603500
-    },
+    "area": 603500,
     "landlocked": false,
     "languages": "Ukrainian"
   },
@@ -513,9 +411,7 @@
     "name": "United Kingdom",
     "subregion": "Northern Europe",
     "population": 66912637,
-    "area": {
-      "kilometers": 242900
-    },
+    "area": 242900,
     "landlocked": false,
     "languages": "English"
   },
@@ -523,9 +419,7 @@
     "name": "Vatican City",
     "subregion": "Southern Europe",
     "population": 882,
-    "area": {
-      "kilometers": 0.44
-    },
+    "area": 0.44,
     "landlocked": true,
     "languages": "Italian"
   },
@@ -533,9 +427,7 @@
     "name": "Åland Islands",
     "subregion": "Northern Europe",
     "population": 30654,
-    "area": {
-      "kilometers": 1580
-    },
+    "area": 1580,
     "landlocked": false,
     "languages": "Swedish"
   }

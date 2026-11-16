@@ -35,7 +35,7 @@ def parse_country(country):
         "name": country["names"]["common"],
         "subregion": country["subregion"],
         "population": country["population"],
-        "area": {"kilometers": country["area"]["kilometers"]},
+        "area": country["area"]["kilometers"],
         "landlocked": country["landlocked"],
         "languages": get_languages(country),
     }
