@@ -1,5 +1,8 @@
 import streamlit as st
 
+from src.catalog import get_country_facts, load_european_country_list
+from src.clues import create_hints_pool
+from src.game import MAX_ATTEMPTS, create_new_game, process_guess
 from src.theme import apply_theme, render_masthead
 
 
@@ -19,26 +22,14 @@ st.markdown(
       .game-intro h2 { margin:0; font:500 clamp(1.6rem,4vw,2.25rem)/1.1 'Fraunces',Georgia,serif; color:#1d2824; letter-spacing:-.035em; }
       .game-intro p { margin:.4rem 0 0; color:#707a70; font-size:.9rem; }
       .round-chip { padding:.45rem .65rem; border:1px solid #d3d0c4; color:#58645c; font:500 .63rem 'DM Mono',monospace; letter-spacing:.1em; text-transform:uppercase; white-space:nowrap; }
-      .guess-shell { margin-top:1.1rem; padding:1rem 1.1rem .25rem; background:rgba(255,255,255,.42); border:1px solid #d3d0c4; }
-      .micro-label { margin:0 0 .55rem; color:#707a70; font:500 .64rem 'DM Mono',monospace; letter-spacing:.12em; text-transform:uppercase; }
       .clue-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; margin:2rem 0 .8rem; padding-bottom:.55rem; border-bottom:1px solid #d3d0c4; }
       .clue-heading strong { color:#1d2824; font:500 1.35rem 'Fraunces',Georgia,serif; }
       .clue-heading span { color:#707a70; font:500 .63rem 'DM Mono',monospace; letter-spacing:.1em; text-transform:uppercase; }
-      .guess-row { display:grid; grid-template-columns:2.5rem minmax(0,1fr) auto; align-items:center; gap:.8rem; padding:.9rem 0; border-bottom:1px solid #d3d0c4; }
-      .guess-index { color:#9a9d8b; font:500 .7rem 'DM Mono',monospace; }
+      .guess-row { padding:.8rem 0; border-bottom:1px solid #d3d0c4; }
       .guess-name { color:#1d2824; font:500 1.1rem 'Fraunces',Georgia,serif; }
-      .guess-note { color:#707a70; font:.72rem 'DM Mono',monospace; text-align:right; }
-      .clue-grid { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
-      .clue-card { position:relative; min-height:8.5rem; padding:1rem 1.1rem; background:#203b35; color:#f2f0e8; overflow:hidden; }
-      .clue-card:after { content:''; position:absolute; width:8rem; height:8rem; right:-3.3rem; bottom:-5.1rem; border:1px solid rgba(242,240,232,.18); border-radius:50%; box-shadow:0 0 0 12px rgba(242,240,232,.035),0 0 0 26px rgba(242,240,232,.025); }
-      .clue-card.people { background:#e7e4d9; color:#1d2824; border:1px solid #d3d0c4; }
-      .clue-label { color:#c3d65b; font:500 .64rem 'DM Mono',monospace; letter-spacing:.12em; text-transform:uppercase; }
-      .people .clue-label { color:#b96748; }
-      .clue-value { margin:.8rem 0 .25rem; font:500 clamp(1.45rem,4vw,2rem)/1 'Fraunces',Georgia,serif; letter-spacing:-.035em; }
-      .clue-detail { color:rgba(242,240,232,.72); font-size:.77rem; }
-      .people .clue-detail { color:#646e65; }
-      .tiny-note { margin:1rem 0 0; color:#707a70; font:400 .68rem 'DM Mono',monospace; letter-spacing:.02em; }
-      @media(max-width:600px){.game-intro{align-items:start;flex-direction:column}.clue-grid{grid-template-columns:1fr}.clue-card{min-height:7.3rem}.guess-row{grid-template-columns:1.6rem minmax(0,1fr);}.guess-note{grid-column:2;text-align:left}}
+      .comparison { color:#515d55; font-size:.86rem; line-height:1.5; margin:.4rem 0 0; }
+      .tiny-note { margin:1rem 0 0; color:#707a70; font:400 .68rem 'DM Mono',monospace; }
+      @media(max-width:600px){.game-intro{align-items:start;flex-direction:column}}
     </style>
     """,
     unsafe_allow_html=True,
@@ -46,87 +37,108 @@ st.markdown(
 
 render_masthead()
 
-st.markdown(
-    """
-    <div class="game-intro">
-      <div>
-        <h2>Mystery country</h2>
-        <p>Use each comparison to narrow down the map.</p>
-      </div>
-      <div class="round-chip">Practice round · unlimited guesses</div>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+try:
+    api_key = st.secrets["RESTCOUNTRIES_API_KEY"]
+except (KeyError, FileNotFoundError):
+    st.error("Add RESTCOUNTRIES_API_KEY to .streamlit/secrets.toml locally and to Streamlit Cloud Secrets before playing.")
+    st.stop()
 
-sample_countries = ["Argentina", "Canada", "Germany", "Greece", "Italy", "Japan", "Portugal"]
-if "mock_guesses" not in st.session_state:
-    st.session_state.mock_guesses = [
-        {"country": "Portugal", "area": "3.2× larger", "population": "1.8× larger"}
-    ]
+@st.cache_data(ttl=60 * 60 * 24 * 3, show_spinner=False)
+def cached_country_facts(code, token):
+    return get_country_facts(code, token)
 
-st.markdown('<div class="guess-shell"><p class="micro-label">Your next guess</p>', unsafe_allow_html=True)
-with st.form("mock-guess", clear_on_submit=False):
-    country_col, button_col = st.columns([4, 1.35])
-    with country_col:
-        selected_country = st.selectbox(
-            "Choose a country",
-            sample_countries,
-            label_visibility="collapsed",
-            placeholder="Search countries…",
-        )
-    with button_col:
-        submitted = st.form_submit_button("Make guess", use_container_width=True)
-st.markdown("</div>", unsafe_allow_html=True)
+@st.cache_data(ttl=60 * 60 * 24 * 3, show_spinner=False)
+def cached_country_list(token):
+    return load_european_country_list(token)
 
-if submitted:
-    if selected_country == "Italy":
-        st.session_state.mock_solved = True
-    elif not any(item["country"] == selected_country for item in st.session_state.mock_guesses):
-        st.session_state.mock_guesses.insert(
-            0,
-            {"country": selected_country, "area": "about the same", "population": "a little larger"},
-        )
-    st.rerun()
+try:
+    country_list = cached_country_list(api_key)
+except Exception as error:
+    st.error(f"Could not load the European country list: {error}")
+    st.stop()
+
+if not country_list:
+    st.error("The country CSV has no playable countries with ISO codes.")
+    st.stop()
+
+if "game" not in st.session_state:
+    st.session_state.game = create_new_game(country_list)
+
+game = st.session_state.game
+try:
+    if "population" not in game["secret"]:
+        game["secret"].update(cached_country_facts(game["secret"]["code"], api_key))
+        game["all_hints"] = create_hints_pool(game["secret"])
+except Exception as error:
+    st.error(f"Could not load the mystery country data from REST Countries: {error}")
+    if st.button("Try again"):
+        st.rerun()
+    st.stop()
 
 st.markdown(
     f"""
-    <div class="clue-heading">
-      <strong>Reading the clues</strong>
-      <span>{len(st.session_state.mock_guesses):02d} guess{'es' if len(st.session_state.mock_guesses) != 1 else ''}</span>
+    <div class="game-intro">
+      <div>
+        <h2>Mystery country</h2>
+        <p>Use each comparison to narrow down the answer.</p>
+      </div>
+      <div class="round-chip">Attempt {min(game['attempt'], MAX_ATTEMPTS)} of {MAX_ATTEMPTS}</div>
     </div>
     """,
     unsafe_allow_html=True,
 )
 
-if st.session_state.get("mock_solved"):
-    st.success("That’s it - the mystery country was Italy. This is sample UI feedback.")
+if game["status"] == "playing":
+    guessed_codes = {item["code"] for item in game["history"]}
+    remaining_countries = [country for country in country_list if country["code"] not in guessed_codes]
+    options = {country["name"]: country for country in remaining_countries}
 
-for index, guess in enumerate(st.session_state.mock_guesses, start=1):
+    with st.form("country-guess", clear_on_submit=True):
+        country_col, button_col = st.columns([4, 1.35])
+        with country_col:
+            selected_name = st.selectbox("Choose a country", list(options), placeholder="Search countries…")
+        with button_col:
+            submitted = st.form_submit_button("Make guess", use_container_width=True)
+
+    if submitted:
+        selected_country = options[selected_name]
+        try:
+            guess_facts = cached_country_facts(selected_country["code"], api_key)
+            process_guess(game, guess_facts)
+        except Exception as error:
+            game["error"] = f"Could not load {selected_name} from REST Countries: {error}"
+        st.session_state.game = game
+        st.rerun()
+
+if game.get("error"):
+    st.error(game["error"])
+
+if game["status"] == "won":
+    st.success(f"You found {game['secret']['name']} in {len(game['history'])} guesses!")
+elif game["status"] == "lost":
+    st.error(f"Out of guesses. The country was {game['secret']['name']}.")
+
+if game["unlocked_hints"]:
+    st.markdown("### Extra hints")
+    for hint in game["unlocked_hints"]:
+        st.info(hint)
+
+if game["history"]:
     st.markdown(
-        f"""
-        <div class="guess-row">
-          <span class="guess-index">{index:02d}</span>
-          <span class="guess-name">{guess['country']}</span>
-          <span class="guess-note">YOUR GUESS</span>
-        </div>
-        <div class="clue-grid">
-          <div class="clue-card">
-            <div class="clue-label">Land area</div>
-            <div class="clue-value">{guess['area']}</div>
-            <div class="clue-detail">Target country compared with {guess['country']}</div>
-          </div>
-          <div class="clue-card people">
-            <div class="clue-label">Population</div>
-            <div class="clue-value">{guess['population']}</div>
-            <div class="clue-detail">Target country compared with {guess['country']}</div>
-          </div>
-        </div>
-        """,
+        f"<div class=clue-heading><strong>Your guesses</strong><span>{len(game['history'])} total</span></div>",
         unsafe_allow_html=True,
     )
+    for entry in reversed(game["history"]):
+        with st.container(border=True):
+            st.markdown(f"**{entry['attempt']:02d} · {entry['country']}**")
+            for feedback in entry["comparison"].values():
+                st.markdown(f"- {feedback}")
+else:
+    st.info("Choose a country to make your first guess. After each wrong guess, compare its area and population with the target.")
 
-st.markdown(
-    '<p class="tiny-note">SAMPLE ROUND · COUNTRY DATA AND COMPARISON VALUES ARE PLACEHOLDERS FOR THIS VISUAL MOCK</p>',
-    unsafe_allow_html=True,
-)
+if game["status"] != "playing":
+    if st.button("Start a new round"):
+        st.session_state.game = create_new_game(country_list)
+        st.rerun()
+
+st.caption("Playable countries are the European entries in the supplied most-visited countries CSV. Country facts are provided by REST Countries.")
