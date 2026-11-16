@@ -1,24 +1,81 @@
 # KrainaLe
 
-A Streamlit country guessing game. The available countries come from `data/most-visited-countries-2026.csv`; REST Countries supplies the target and guess facts on demand.
+**KrainaLe** — гра на вгадування країн. Гравець обирає країни зі списку найвідвідуваніших, а після кожної неправильної спроби отримує підказки, які допомагають звузити пошук.
 
-## Run locally
+## Як працює гра
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-```
+- У грі доступні лише європейські країни з файлу `data/most-visited-countries-2026.csv`.
+- На початку раунду випадково обирається країна-загадка.
+- Є до 10 спроб. Повторна країна не зараховується як нова спроба.
+- Після кожної неправильної відповіді гра порівнює населення та площу країни з цільовою. Значення в межах 10% вважаються приблизно однаковими.
+- Також гра показує збіг або відмінність за регіоном, субрегіоном і доступом до моря.
+- Додаткові підказки відкриваються після 5-ї, 7-ї та 9-ї спроб. На 7-й спробі показується субрегіон, а мовна підказка з'являється останньою.
 
-The existing API key has been moved to `.streamlit/secrets.toml`, which is ignored by Git. If you set up another machine, create that file with:
+Дані про країни завантажуються з [REST Countries API](https://restcountries.com/docs/countries). Список доступних країн береться з CSV-файлу, а факти для цільової країни та кожної спроби запитуються окремо й кешуються на три дні.
 
-```toml
-RESTCOUNTRIES_API_KEY = "your-key-here"
-```
+## Запуск на комп'ютері
 
-For Streamlit Community Cloud, add the same setting under the app's **Settings → Secrets**.
+1. Встановіть Python 3.
+2. Відкрийте термінал у папці проєкту та створіть віртуальне середовище:
 
-## Game flow
+   ```bash
+   python -m venv .venv
+   ```
 
-The app randomly chooses a target from the CSV countries. Players get up to 10 guesses. After a wrong guess, the app compares population and land area with a 10% tolerance and gives region, subregion, and sea-access feedback. Additional hints may unlock after guesses 5, 7, and 9. Duplicate guesses are rejected without using an attempt.
+3. Активуйте його:
+
+   macOS або Linux:
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+   Windows PowerShell:
+
+   ```powershell
+   .venv\Scripts\Activate.ps1
+   ```
+
+4. Встановіть залежності:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Переконайтеся, що в `.streamlit/secrets.toml` є ключ REST Countries:
+
+   ```toml
+   RESTCOUNTRIES_API_KEY = "ваш_ключ_api"
+   ```
+
+   Цей файл ігнорується Git. Не додавайте його до комітів.
+
+6. Запустіть застосунок:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+Streamlit покаже адресу локального сайту в терміналі, зазвичай `http://localhost:8501`.
+
+## Публікація у Streamlit Community Cloud
+
+1. Завантажте код проєкту до GitHub. Перевірте, що `.streamlit/secrets.toml` не потрапив у коміт.
+2. У Streamlit Community Cloud створіть застосунок із потрібного репозиторію та вкажіть `app.py` як головний файл.
+3. У налаштуваннях застосунку відкрийте **Secrets** і додайте:
+
+   ```toml
+   RESTCOUNTRIES_API_KEY = "ваш_ключ_api"
+   ```
+
+Залежності Streamlit Cloud встановить із `requirements.txt`.
+
+## Структура даних
+
+- `data/most-visited-countries-2026.csv` — початковий список країн. Рядки без коду країни пропускаються.
+- `.streamlit/secrets.toml` — локальне сховище ключа API; файл не слід комітити.
+- `app.py` — інтерфейс Streamlit і взаємодія з ігровою логікою.
+- `src/catalog.py` — читання CSV та отримання фактів із REST Countries.
+- `src/game.py` — стан раунду, спроби та перевірка відповідей.
+- `src/clues.py` — порівняння та додаткові підказки.
+- `src/theme.py` — оформлення сторінки.
