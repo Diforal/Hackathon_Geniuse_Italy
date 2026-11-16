@@ -21,7 +21,7 @@ def get_value(id, label):
 
 def id(country):
     for i in range(len(File["data"])):
-        if i["name"] == country:
+        if File["data"][i]["name"] == country:
             return i
 
 def compare(guess, secret):
