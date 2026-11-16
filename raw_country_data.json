@@ -1,0 +1,1844 @@
+{
+  "data": {
+    "objects": [
+      {
+        "names": {
+          "common": "Albania"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 28748
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "sq",
+            "iso639_1": "sq",
+            "iso639_2b": "alb",
+            "iso639_2t": "sqi",
+            "iso639_3": "sqi",
+            "name": "Albanian",
+            "native_name": "shqip"
+          }
+        ],
+        "population": 2335930,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557516
+        }
+      },
+      {
+        "names": {
+          "common": "Andorra"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 468
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "ca",
+            "iso639_1": "ca",
+            "iso639_2b": "cat",
+            "iso639_2t": "cat",
+            "iso639_3": "cat",
+            "name": "Catalan",
+            "native_name": "català"
+          }
+        ],
+        "population": 90271,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794534067
+        }
+      },
+      {
+        "names": {
+          "common": "Austria"
+        },
+        "subregion": "Central Europe",
+        "area": {
+          "kilometers": 83871
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+          }
+        ],
+        "population": 9228795,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794528501
+        }
+      },
+      {
+        "names": {
+          "common": "Belarus"
+        },
+        "subregion": "Eastern Europe",
+        "area": {
+          "kilometers": 207600
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "be",
+            "iso639_1": "be",
+            "iso639_2b": "bel",
+            "iso639_2t": "bel",
+            "iso639_3": "bel",
+            "name": "Belarusian",
+            "native_name": "беларуская мова"
+          },
+          {
+            "bcp47": "ru",
+            "iso639_1": "ru",
+            "iso639_2b": "rus",
+            "iso639_2t": "rus",
+            "iso639_3": "rus",
+            "name": "Russian",
+            "native_name": "русский"
+          }
+        ],
+        "population": 9056080,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788724017
+        }
+      },
+      {
+        "names": {
+          "common": "Belgium"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 30528
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+          },
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          },
+          {
+            "bcp47": "nl",
+            "iso639_1": "nl",
+            "iso639_2b": "dut",
+            "iso639_2t": "nld",
+            "iso639_3": "nld",
+            "name": "Dutch",
+            "native_name": "Nederlands"
+          }
+        ],
+        "population": 11947050,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794528501
+        }
+      },
+      {
+        "names": {
+          "common": "Bosnia and Herzegovina"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 51209
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "bs",
+            "iso639_1": "bs",
+            "iso639_2b": "bos",
+            "iso639_2t": "bos",
+            "iso639_3": "bos",
+            "name": "Bosnian",
+            "native_name": "bosanski jezik"
+          },
+          {
+            "bcp47": "hr",
+            "iso639_1": "hr",
+            "iso639_2b": "hrv",
+            "iso639_2t": "hrv",
+            "iso639_3": "hrv",
+            "name": "Croatian",
+            "native_name": "hrvatski jezik"
+          },
+          {
+            "bcp47": "sr",
+            "iso639_1": "sr",
+            "iso639_2b": "srp",
+            "iso639_2t": "srp",
+            "iso639_3": "srp",
+            "name": "Serbian",
+            "native_name": "српски језик"
+          }
+        ],
+        "population": 3412000,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794839668
+        }
+      },
+      {
+        "names": {
+          "common": "Bulgaria"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 110879
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "bg",
+            "iso639_1": "bg",
+            "iso639_2b": "bul",
+            "iso639_2t": "bul",
+            "iso639_3": "bul",
+            "name": "Bulgarian",
+            "native_name": "български език"
+          }
+        ],
+        "population": 6423207,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794558379
+        }
+      },
+      {
+        "names": {
+          "common": "Croatia"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 56594
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "hr",
+            "iso639_1": "hr",
+            "iso639_2b": "hrv",
+            "iso639_2t": "hrv",
+            "iso639_3": "hrv",
+            "name": "Croatian",
+            "native_name": "hrvatski jezik"
+          }
+        ],
+        "population": 3874993,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794515887
+        }
+      },
+      {
+        "names": {
+          "common": "Cyprus"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 9251
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "el",
+            "iso639_1": "el",
+            "iso639_2b": "gre",
+            "iso639_2t": "ell",
+            "iso639_3": "ell",
+            "name": "Greek",
+            "native_name": "Ελληνικά"
+          },
+          {
+            "bcp47": "tr",
+            "iso639_1": "tr",
+            "iso639_2b": "tur",
+            "iso639_2t": "tur",
+            "iso639_3": "tur",
+            "name": "Turkish",
+            "native_name": "Türkçe"
+          }
+        ],
+        "population": 996600,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794510671
+        }
+      },
+      {
+        "names": {
+          "common": "Czechia"
+        },
+        "subregion": "Central Europe",
+        "area": {
+          "kilometers": 78865
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "cs",
+            "iso639_1": "cs",
+            "iso639_2b": "cze",
+            "iso639_2t": "ces",
+            "iso639_3": "ces",
+            "name": "Czech",
+            "native_name": "čeština"
+          },
+          {
+            "bcp47": "sk",
+            "iso639_1": "sk",
+            "iso639_2b": "slo",
+            "iso639_2t": "slk",
+            "iso639_3": "slk",
+            "name": "Slovak",
+            "native_name": "slovenčina"
+          }
+        ],
+        "population": 10903655,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1789247316
+        }
+      },
+      {
+        "names": {
+          "common": "Denmark"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 43094
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "da",
+            "iso639_1": "da",
+            "iso639_2b": "dan",
+            "iso639_2t": "dan",
+            "iso639_3": "dan",
+            "name": "Danish",
+            "native_name": "dansk"
+          }
+        ],
+        "population": 6044001,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794540513
+        }
+      },
+      {
+        "names": {
+          "common": "Estonia"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 45227
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "et",
+            "iso639_1": "et",
+            "iso639_2b": "est",
+            "iso639_2t": "est",
+            "iso639_3": "est",
+            "name": "Estonian",
+            "native_name": "eesti"
+          }
+        ],
+        "population": 1360745,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1792354598
+        }
+      },
+      {
+        "names": {
+          "common": "Faroe Islands"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 1393
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "da",
+            "iso639_1": "da",
+            "iso639_2b": "dan",
+            "iso639_2t": "dan",
+            "iso639_3": "dan",
+            "name": "Danish",
+            "native_name": "dansk"
+          },
+          {
+            "bcp47": "fo",
+            "iso639_1": "fo",
+            "iso639_2b": "fao",
+            "iso639_2t": "fao",
+            "iso639_3": "fao",
+            "name": "Faroese",
+            "native_name": "føroyskt"
+          }
+        ],
+        "population": 55466,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794528501
+        }
+      },
+      {
+        "names": {
+          "common": "Finland"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 338424
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "fi",
+            "iso639_1": "fi",
+            "iso639_2b": "fin",
+            "iso639_2t": "fin",
+            "iso639_3": "fin",
+            "name": "Finnish",
+            "native_name": "suomi"
+          },
+          {
+            "bcp47": "sv",
+            "iso639_1": "sv",
+            "iso639_2b": "swe",
+            "iso639_2t": "swe",
+            "iso639_3": "swe",
+            "name": "Swedish",
+            "native_name": "svenska"
+          }
+        ],
+        "population": 5662086,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794510649
+        }
+      },
+      {
+        "names": {
+          "common": "France"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 551695
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          }
+        ],
+        "population": 69081996,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557518
+        }
+      },
+      {
+        "names": {
+          "common": "Germany"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 357114
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+          }
+        ],
+        "population": 83298787,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1790233840
+        }
+      },
+      {
+        "names": {
+          "common": "Gibraltar"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 6
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+          }
+        ],
+        "population": 38196,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1791073765
+        }
+      },
+      {
+        "names": {
+          "common": "Greece"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 131990
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "el",
+            "iso639_1": "el",
+            "iso639_2b": "gre",
+            "iso639_2t": "ell",
+            "iso639_3": "ell",
+            "name": "Greek",
+            "native_name": "Ελληνικά"
+          }
+        ],
+        "population": 10372335,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1790063323
+        }
+      },
+      {
+        "names": {
+          "common": "Guernsey"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 78
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+          },
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          },
+          {
+            "bcp47": "nrf",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "nrf",
+            "name": "Norman",
+            "native_name": "Guernésiais"
+          }
+        ],
+        "population": 64781,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1789393059
+        }
+      },
+      {
+        "names": {
+          "common": "Hungary"
+        },
+        "subregion": "Central Europe",
+        "area": {
+          "kilometers": 93028
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "hu",
+            "iso639_1": "hu",
+            "iso639_2b": "hun",
+            "iso639_2t": "hun",
+            "iso639_3": "hun",
+            "name": "Hungarian",
+            "native_name": "magyar"
+          }
+        ],
+        "population": 9488428,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557518
+        }
+      },
+      {
+        "names": {
+          "common": "Iceland"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 103000
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "is",
+            "iso639_1": "is",
+            "iso639_2b": "ice",
+            "iso639_2t": "isl",
+            "iso639_3": "isl",
+            "name": "Icelandic",
+            "native_name": "Íslenska"
+          }
+        ],
+        "population": 397710,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794614105
+        }
+      },
+      {
+        "names": {
+          "common": "Ireland"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 70273
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+          },
+          {
+            "bcp47": "ga",
+            "iso639_1": "ga",
+            "iso639_2b": "gle",
+            "iso639_2t": "gle",
+            "iso639_3": "gle",
+            "name": "Irish",
+            "native_name": "Gaeilge"
+          }
+        ],
+        "population": 5525600,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557518
+        }
+      },
+      {
+        "names": {
+          "common": "Isle of Man"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 572
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+          },
+          {
+            "bcp47": "gv",
+            "iso639_1": "gv",
+            "iso639_2b": "glv",
+            "iso639_2t": "glv",
+            "iso639_3": "glv",
+            "name": "Manx",
+            "native_name": "Gaelg"
+          }
+        ],
+        "population": 84975,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794512209
+        }
+      },
+      {
+        "names": {
+          "common": "Italy"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 301336
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "it",
+            "iso639_1": "it",
+            "iso639_2b": "ita",
+            "iso639_2t": "ita",
+            "iso639_3": "ita",
+            "name": "Italian",
+            "native_name": "italiano"
+          },
+          {
+            "bcp47": "ca",
+            "iso639_1": "ca",
+            "iso639_2b": "cat",
+            "iso639_2t": "cat",
+            "iso639_3": "cat",
+            "name": "Catalan",
+            "native_name": "català"
+          }
+        ],
+        "population": 58949500,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794529576
+        }
+      },
+      {
+        "names": {
+          "common": "Jersey"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 116
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+          },
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          },
+          {
+            "bcp47": "nrf",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "nrf",
+            "name": "Norman",
+            "native_name": "Nouormand"
+          }
+        ],
+        "population": 104540,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788724018
+        }
+      },
+      {
+        "names": {
+          "common": "Kosovo"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 10908
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "sq",
+            "iso639_1": "sq",
+            "iso639_2b": "alb",
+            "iso639_2t": "sqi",
+            "iso639_3": "sqi",
+            "name": "Albanian",
+            "native_name": "shqip"
+          },
+          {
+            "bcp47": "sr",
+            "iso639_1": "sr",
+            "iso639_2b": "srp",
+            "iso639_2t": "srp",
+            "iso639_3": "srp",
+            "name": "Serbian",
+            "native_name": "српски језик"
+          }
+        ],
+        "population": 1582322,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1792498329
+        }
+      },
+      {
+        "names": {
+          "common": "Latvia"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 64559
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "lv",
+            "iso639_1": "lv",
+            "iso639_2b": "lav",
+            "iso639_2t": "lav",
+            "iso639_3": "lav",
+            "name": "Latvian",
+            "native_name": "latviešu valoda"
+          }
+        ],
+        "population": 1828600,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794541137
+        }
+      },
+      {
+        "names": {
+          "common": "Liechtenstein"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 160
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+          }
+        ],
+        "population": 41228,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794530853
+        }
+      },
+      {
+        "names": {
+          "common": "Lithuania"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 65300
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "lt",
+            "iso639_1": "lt",
+            "iso639_2b": "lit",
+            "iso639_2t": "lit",
+            "iso639_3": "lit",
+            "name": "Lithuanian",
+            "native_name": "lietuvių kalba"
+          }
+        ],
+        "population": 2890874,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794582607
+        }
+      },
+      {
+        "names": {
+          "common": "Luxembourg"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 2586
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "de",
+            "iso639_1": "de",
+            "iso639_2b": "ger",
+            "iso639_2t": "deu",
+            "iso639_3": "deu",
+            "name": "German",
+            "native_name": "Deutsch"
+          },
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          },
+          {
+            "bcp47": "lb",
+            "iso639_1": "lb",
+            "iso639_2b": "ltz",
+            "iso639_2t": "ltz",
+            "iso639_3": "ltz",
+            "name": "Luxembourgish",
+            "native_name": "Lëtzebuergesch"
+          }
+        ],
+        "population": 690959,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788773661
+        }
+      },
+      {
+        "names": {
+          "common": "Malta"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 316
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "en",
+            "iso639_1": "en",
+            "iso639_2b": "eng",
+            "iso639_2t": "eng",
+            "iso639_3": "eng",
+            "name": "English",
+            "native_name": "English"
+          },
+          {
+            "bcp47": "mt",
+            "iso639_1": "mt",
+            "iso639_2b": "mlt",
+            "iso639_2t": "mlt",
+            "iso639_3": "mlt",
+            "name": "Maltese",
+            "native_name": "Malti"
+          }
+        ],
+        "population": 588254,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557519
+        }
+      },
+      {
+        "names": {
+          "common": "Moldova"
+        },
+        "subregion": "Eastern Europe",
+        "area": {
+          "kilometers": 33846
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "ro",
+            "iso639_1": "ro",
+            "iso639_2b": "rum",
+            "iso639_2t": "ron",
+            "iso639_3": "ron",
+            "name": "Romanian",
+            "native_name": "Română"
+          }
+        ],
+        "population": 2365600,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557519
+        }
+      },
+      {
+        "names": {
+          "common": "Monaco"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 2.02
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          }
+        ],
+        "population": 38857,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794528792
+        }
+      },
+      {
+        "names": {
+          "common": "Montenegro"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 13812
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "cnr",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "cnr",
+            "name": "Montenegrin",
+            "native_name": "crnogorski jezik"
+          }
+        ],
+        "population": 622902,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557519
+        }
+      },
+      {
+        "names": {
+          "common": "Netherlands"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 41850
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "nl",
+            "iso639_1": "nl",
+            "iso639_2b": "dut",
+            "iso639_2t": "nld",
+            "iso639_3": "nld",
+            "name": "Dutch",
+            "native_name": "Nederlands"
+          }
+        ],
+        "population": 18192693,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794510671
+        }
+      },
+      {
+        "names": {
+          "common": "North Macedonia"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 25713
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "mk",
+            "iso639_1": "mk",
+            "iso639_2b": "mac",
+            "iso639_2t": "mkd",
+            "iso639_3": "mkd",
+            "name": "Macedonian",
+            "native_name": "македонски јазик"
+          }
+        ],
+        "population": 1836713,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557519
+        }
+      },
+      {
+        "names": {
+          "common": "Northern Cyprus"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 3355
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "tr",
+            "iso639_1": "tr",
+            "iso639_2b": "tur",
+            "iso639_2t": "tur",
+            "iso639_3": "tur",
+            "name": "Turkish",
+            "native_name": "Türkçe"
+          }
+        ],
+        "population": 382836,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794754141
+        }
+      },
+      {
+        "names": {
+          "common": "Norway"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 323802
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "nn",
+            "iso639_1": "nn",
+            "iso639_2b": "nno",
+            "iso639_2t": "nno",
+            "iso639_3": "nno",
+            "name": "Norwegian Nynorsk",
+            "native_name": "Norsk nynorsk"
+          },
+          {
+            "bcp47": "nb",
+            "iso639_1": "nb",
+            "iso639_2b": "nob",
+            "iso639_2t": "nob",
+            "iso639_3": "nob",
+            "name": "Norwegian Bokmål",
+            "native_name": "Norsk bokmål"
+          },
+          {
+            "bcp47": "se",
+            "iso639_1": "se",
+            "iso639_2b": "sme",
+            "iso639_2t": "sme",
+            "iso639_3": "sme",
+            "name": "Northern Sami",
+            "native_name": "Davvisámegiella"
+          },
+          {
+            "bcp47": "smj",
+            "iso639_1": "",
+            "iso639_2b": "smj",
+            "iso639_2t": "smj",
+            "iso639_3": "smj",
+            "name": "Lule Sami",
+            "native_name": "Julevsámegiella"
+          },
+          {
+            "bcp47": "sma",
+            "iso639_1": "",
+            "iso639_2b": "sma",
+            "iso639_2t": "sma",
+            "iso639_3": "sma",
+            "name": "Southern Sami",
+            "native_name": "Åarjelsaemien gïele"
+          }
+        ],
+        "population": 5636904,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557520
+        }
+      },
+      {
+        "names": {
+          "common": "Poland"
+        },
+        "subregion": "Central Europe",
+        "area": {
+          "kilometers": 312679
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "pl",
+            "iso639_1": "pl",
+            "iso639_2b": "pol",
+            "iso639_2t": "pol",
+            "iso639_3": "pol",
+            "name": "Polish",
+            "native_name": "język polski"
+          }
+        ],
+        "population": 37221000,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794510671
+        }
+      },
+      {
+        "names": {
+          "common": "Portugal"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 92090
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "pt",
+            "iso639_1": "pt",
+            "iso639_2b": "por",
+            "iso639_2t": "por",
+            "iso639_3": "por",
+            "name": "Portuguese",
+            "native_name": "português"
+          }
+        ],
+        "population": 11424031,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557520
+        }
+      },
+      {
+        "names": {
+          "common": "Romania"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 238391
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "ro",
+            "iso639_1": "ro",
+            "iso639_2b": "rum",
+            "iso639_2t": "ron",
+            "iso639_3": "ron",
+            "name": "Romanian",
+            "native_name": "Română"
+          }
+        ],
+        "population": 19041322,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794560663
+        }
+      },
+      {
+        "names": {
+          "common": "Russia"
+        },
+        "subregion": "Eastern Europe",
+        "area": {
+          "kilometers": 17098242
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "ru",
+            "iso639_1": "ru",
+            "iso639_2b": "rus",
+            "iso639_2t": "rus",
+            "iso639_3": "rus",
+            "name": "Russian",
+            "native_name": "русский"
+          }
+        ],
+        "population": 146028325,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557520
+        }
+      },
+      {
+        "names": {
+          "common": "San Marino"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 61
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "it",
+            "iso639_1": "it",
+            "iso639_2b": "ita",
+            "iso639_2t": "ita",
+            "iso639_3": "ita",
+            "name": "Italian",
+            "native_name": "italiano"
+          }
+        ],
+        "population": 33605,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794513018
+        }
+      },
+      {
+        "names": {
+          "common": "Serbia"
+        },
+        "subregion": "Southeast Europe",
+        "area": {
+          "kilometers": 88361
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "sr",
+            "iso639_1": "sr",
+            "iso639_2b": "srp",
+            "iso639_2t": "srp",
+            "iso639_3": "srp",
+            "name": "Serbian",
+            "native_name": "српски језик"
+          }
+        ],
+        "population": 6532019,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1792405184
+        }
+      },
+      {
+        "names": {
+          "common": "Slovakia"
+        },
+        "subregion": "Central Europe",
+        "area": {
+          "kilometers": 49037
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "sk",
+            "iso639_1": "sk",
+            "iso639_2b": "slo",
+            "iso639_2t": "slk",
+            "iso639_3": "slk",
+            "name": "Slovak",
+            "native_name": "slovenčina"
+          }
+        ],
+        "population": 5403009,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788557520
+        }
+      },
+      {
+        "names": {
+          "common": "Slovenia"
+        },
+        "subregion": "Central Europe",
+        "area": {
+          "kilometers": 20273
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "sl",
+            "iso639_1": "sl",
+            "iso639_2b": "slv",
+            "iso639_2t": "slv",
+            "iso639_3": "slv",
+            "name": "Slovenian",
+            "native_name": "slovenščina"
+          }
+        ],
+        "population": 2138751,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794510671
+        }
+      },
+      {
+        "names": {
+          "common": "Spain"
+        },
+        "subregion": "Southern Europe",
+        "area": {
+          "kilometers": 505992
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "es",
+            "iso639_1": "es",
+            "iso639_2b": "spa",
+            "iso639_2t": "spa",
+            "iso639_3": "spa",
+            "name": "Spanish",
+            "native_name": "español"
+          },
+          {
+            "bcp47": "ca",
+            "iso639_1": "ca",
+            "iso639_2b": "cat",
+            "iso639_2t": "cat",
+            "iso639_3": "cat",
+            "name": "Catalan",
+            "native_name": "català"
+          },
+          {
+            "bcp47": "eu",
+            "iso639_1": "eu",
+            "iso639_2b": "baq",
+            "iso639_2t": "eus",
+            "iso639_3": "eus",
+            "name": "Basque",
+            "native_name": "euskara"
+          },
+          {
+            "bcp47": "gl",
+            "iso639_1": "gl",
+            "iso639_2b": "glg",
+            "iso639_2t": "glg",
+            "iso639_3": "glg",
+            "name": "Galician",
+            "native_name": "galego"
+          },
+          {
+            "bcp47": "oc",
+            "iso639_1": "oc",
+            "iso639_2b": "oci",
+            "iso639_2t": "oci",
+            "iso639_3": "oci",
+            "name": "Aranese",
+            "native_name": "aranés"
+          }
+        ],
+        "population": 49935642,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794512209
+        }
+      },
+      {
+        "names": {
+          "common": "Svalbard and Jan Mayen"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 61399
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "no",
+            "iso639_1": "no",
+            "iso639_2b": "nor",
+            "iso639_2t": "nor",
+            "iso639_3": "nor",
+            "name": "Norwegian",
+            "native_name": "Norsk"
+          }
+        ],
+        "population": 2562,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1788724019
+        }
+      },
+      {
+        "names": {
+          "common": "Sweden"
+        },
+        "subregion": "Northern Europe",
+        "area": {
+          "kilometers": 450295
+        },
+        "landlocked": false,
+        "languages": [
+          {
+            "bcp47": "sv",
+            "iso639_1": "sv",
+            "iso639_2b": "swe",
+            "iso639_2t": "swe",
+            "iso639_3": "swe",
+            "name": "Swedish",
+            "native_name": "svenska"
+          }
+        ],
+        "population": 10621725,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1794582571
+        }
+      },
+      {
+        "names": {
+          "common": "Switzerland"
+        },
+        "subregion": "Western Europe",
+        "area": {
+          "kilometers": 41284
+        },
+        "landlocked": true,
+        "languages": [
+          {
+            "bcp47": "fr",
+            "iso639_1": "fr",
+            "iso639_2b": "fre",
+            "iso639_2t": "fra",
+            "iso639_3": "fra",
+            "name": "French",
+            "native_name": "français"
+          },
+          {
+            "bcp47": "gsw",
+            "iso639_1": "",
+            "iso639_2b": "",
+            "iso639_2t": "",
+            "iso639_3": "gsw",
+            "name": "Swiss German",
+            "native_name": "Schwiizerdütsch"
+          },
+          {
+            "bcp47": "it",
+            "iso639_1": "it",
+            "iso639_2b": "ita",
+            "iso639_2t": "ita",
+            "iso639_3": "ita",
+            "name": "Italian",
+            "native_name": "italiano"
+          },
+          {
+            "bcp47": "rm",
+            "iso639_1": "rm",
+            "iso639_2b": "roh",
+            "iso639_2t": "roh",
+            "iso639_3": "roh",
+            "name": "Romansh",
+            "native_name": "rumantsch grischun"
+          }
+        ],
+        "population": 9154896,
+        "_match": [
+          {
+            "path": "region",
+            "value": "Europe"
+          }
+        ],
+        "_meta": {
+          "lastUpdatedTimestamp": 1791320117
+        }
+      }
+    ],
+    "meta": {
+      "total": 54,
+      "count": 50,
+      "limit": 50,
+      "offset": 0,
+      "more": true,
+      "request_id": "8dc73d52-41bc-43e6-b7f1-8cde2fb95bb1",
+      "duration": 29
+    }
+  }
+}
